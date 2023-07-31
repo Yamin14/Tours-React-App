@@ -7,7 +7,7 @@ function Tour ( { id, name, price, image, info, removeTour} ) {
 
 	 return (
 	 	<>
-	 		<article className='border border-primary my-3'>
+	 		<article className='border border-secondary border-2 my-3 p-1'>
 	 			<img src={image} />
 
 	 			<footer>
